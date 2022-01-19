@@ -1,3 +1,35 @@
 body{
   background-color: #f9f7f3;
 }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#92e0f7;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+li a:hover {
+  background-color:#7ab9cc;
+}
+.active{
+  text-decoration: underline;
+}
+h1{
+  text-shadow: 5px 2px 2px grey;
+  font-size: 55px;
+  text-align: center;
+}
