@@ -33,3 +33,17 @@ h1{
   font-size: 55px;
   text-align: center;
 }
+table{
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td{
+  padding: 8px;
+}
+th{
+  text-decoration: underline;
+  font-size: 20px;
+}
+tr:hover{
+  background-color: #fce1ea;
+}
