@@ -116,5 +116,13 @@ div.desc {
 }
 .img:hover{
   -webkit-filter: blur(5px);
-  filter: blur(5px); 
+  filter: blur(5px);
+}
+.img1{
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+.img2:hover{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
 }
